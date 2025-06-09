@@ -1,0 +1,157 @@
+#navbar {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 10px; 
+    margin: 0px;
+    position: fixed; 
+    width: 100%;
+    top: 0; 
+    left: 0;
+    z-index: 99;
+    }
+    #navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding: 2px 12px;
+    margin:5px ;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+    }
+    #navbar #logo {
+      font-family: 'Kalam', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    #navbar a.active {
+    background-color: #ff9837;
+    color: white;
+    }
+    #navbar-right {
+    margin-top: 3px;
+    float: right;
+    padding-right: 60px;
+    }
+    .display{
+        text-align: center;
+        font-size: 28px;
+        margin-top: 5%;
+    }
+    .caption{
+        text-align: center;
+        margin: 2% auto 0.5% auto;
+        padding: 5px;
+        width: 350px;
+        height: auto;
+        border: 1px black solid;
+    }
+    .line{
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+    .certificateContainer{
+        width: 870px;
+        height: 470px;
+        margin: 2.5% auto;
+        border: 2px black solid;
+    }
+
+    .certificate{
+        width: 850px;
+        height: 450px;
+        border: 1px black solid;
+        margin: 1% auto;
+        position: relative;
+        text-align: center;
+    }
+
+
+
+.border1{
+    position: absolute;
+    top: 0%;
+    height: 5%;
+    background-image: linear-gradient(to right, #06ACA4 , #1085C9);
+    width: 30%;
+    border-radius:0  0 20px 0;
+}
+.border2{
+    position: absolute;
+    top: 0%;
+    height:30%;
+    background-image: linear-gradient(#06ACA4, #1085C9);
+    width: 2%;
+    border-radius:0 0 20px 0;
+}
+.border3{
+    position: absolute;
+    top: 95%;
+    height: 5%;
+    float:right;
+    right: 0%;
+    background-image: linear-gradient(to left, #06ACA4 , #1085C9);
+    width: 20%;
+    border-radius:20px 0 0 0;
+    }      
+.border4{
+    position: absolute;
+    top: 70%;
+    height:30%;
+    float:right;
+    right: 0%;
+    background-image: linear-gradient(#1085C9,#06ACA4);
+    width: 2%;
+    border-radius:20px 0 0 0;
+}
+.btnContainer{
+    margin: 0 auto 10px auto;
+    height: 60px;
+    width: 30%;
+}
+ .btn-one{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+     font-size: 18px;
+    background-color: gold;
+ }
+
+
+ .h1{
+    font-size: 18px;
+ }
+ .fdContainer{
+    margin-left: 50px;
+    margin-bottom: 3%;
+ }
+.headline{margin:8% 0 2% 0; font-size: 35px;}
+.sub{ margin-bottom: 3%; font-size: 28px;}
+.name{margin-bottom: 3%;font-size: 30px;}
+.sub2{margin-bottom: 1%;font-size: 22px;}
+
+.provided{font-size: 16px;}
+.skillA{font-size: 18px;}
+
+.lastline{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.vaibhav{
+    height: 100px; 
+    width: 200px; 
+    background-color: yellow;
+}

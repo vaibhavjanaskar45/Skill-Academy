@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Academy | Quiz Time</title>
+    <link rel="icon" href="Assets/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./NewQuiz.css">
+</head>
+<body>
+    <form action="quizCheck.jsp">
+     <div class="nav">
+        <img src="Assets\QuizImage.webp" alt="" height="100px" width="200px" style="margin-top: 0px;">
+     </div>
+     <!-- Question set -->
+     <br><br>
+     <div class="gridPoints">
+        <div class="point1">
+            <div class="srno"><b>O1</b></div>
+            <div class="subtopic">What is the correct signature of _jspService() method of HttpJspPage class?</div>
+                
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g1" value="void _jspService(HTTPRequest request, HTTPResponse response)" />void _jspService(HTTPRequest request, HTTPResponse response)<br>
+            </div>
+        </div> 
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g1" value="void _jspService(HTTPRequest request, HTTPResponse response) throws ServletException, IOException" />void _jspService(HTTPRequest request, HTTPResponse response) throws ServletException, IOException<br>
+            </div>
+        </div> 
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g1" value="void _jspService() throws ServletException, IOException" />void _jspService() throws ServletException, IOException<br>
+            </div>
+        </div> 
+
+        </div>
+        <div class="point2">
+            <div class="srno"><b>O2</b></div>
+            <div class="subtopic">If a jsp is to generate a pdf page, what attribute of page directive it should use?</div>
+                
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g2" value="contentType" />contentType<br>
+            </div>
+        </div> 
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g2" value="CreatePdf" />CreatePdf<br>
+            </div>
+        </div> 
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g2" value="generatePdf" />generatePdf<br>
+            </div>
+        </div> 
+
+        </div>
+        <div class="point1">
+            <div class="srno"><b>O3</b></div>
+            <div class="subtopic">All servlet classes are required to be mapped and configured in web.xml</div>
+                
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g3" value="True" />True<br>
+            </div>
+        </div> 
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g3" value="False" />False<br>
+            </div>
+        </div> 
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g3" value="-" /> -<br>
+            </div>
+        </div> 
+
+        </div>
+        <div class="point2">
+            <div class="srno"><b>O4</b></div>
+            <div class="subtopic">Which of the following attributes are used in "" tag?</div>
+                
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g4" value="id, type" /> id, type<br>
+            </div>
+        </div> 
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g4" value="reload, refresh" />reload, refresh<br>
+            </div>
+        </div> 
+        <div class="content">
+            <div class="lesson"><input type="radio" name="g4" value="page, flush" />page, flush<br>
+            </div>
+        </div> 
+
+        </div>
+        <div class="point1">
+            <div class="srno"><b>O5</b></div>
+                <div class="subtopic">Which of the following method can be used to read parameters names?</div>
+                    
+            <div class="content">
+                <div class="lesson"><input type="radio" name="g5" value="request.getParameterNames()" />request.getParameterNames()<br>
+                </div>
+            </div> 
+            <div class="content">
+                <div class="lesson"><input type="radio" name="g5" value="response.getParameter()" />response.getParameter()<br>
+                </div>
+            </div> 
+            <div class="content">
+                <div class="lesson"><input type="radio" name="g5" value="request.getParameter()" />requuest.getParameter()<br>
+                </div>
+            </div> 
+        
+        </div> 
+        <div class="point3">
+            <img src="https://cliparting.com/wp-content/uploads/2016/06/Question-mark-question-clipart-2.jpg" alt="" height="350px" width="350px" style="margin: 5% 0 0 18%;">
+        </div>  
+    </div>
+    
+     <!-- Instruction -->
+     <div class="instruction" style="margin: 2px 50px 10px 50px; border: 1px solid black;border-radius: 5px; padding: 5px;">
+        <h6 style="font-size: 15px; margin: 10px 20px;">Here are some Instructions Before Submitting</h6>
+         <ul>1) You have to Answer minimum 3 correct answer.</ul>
+         <ul>2) If you fail to answer minimum 3 correct answer you will redirect to Course page later on learn properly and try again  </ul>   
+         <ul>3) Once you pass the quiz, Claim your certificate from Skill Academy </ul>
+     </div>
+ 
+     <!-- Button -->
+     <input type="submit" class="submitbtn">
+</form>
+</body>
+</html>

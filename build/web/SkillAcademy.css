@@ -1,0 +1,199 @@
+    #navbar {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 10px; 
+    margin: 0px;
+    position: fixed; 
+    width: 100%;
+    top: 0; 
+    left: 0;
+    z-index: 99;
+    }
+    #navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding: 2px 12px;
+    margin:5px ;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+    }
+    #navbar #logo {
+      font-family: 'Kalam', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    #navbar a.active {
+    background-color: #ff9837;
+    color: white;
+    }
+    #navbar-right {
+    margin-top: 3px;
+    float: right;
+    padding-right: 60px;
+    }
+    
+    .adds{
+      height: 30px;
+      width: 100%;
+      background-color: #FF9500;
+      margin-top: 5.5%;
+      color: #FFFFFF;
+      padding: 2px;
+      font-size: 16px;}
+    
+
+    .headline{ 
+    font-family: 'Arimo', sans-serif;
+    position:absolute;
+    left: 15%;
+    top :26%;
+    font-size: 32px;}
+    .sub{
+    font-family: 'Nunito Sans',sans-serif;
+    width: 300px;
+    font-size: 17px;
+    }
+    .submit{
+      display: block;
+      margin: 6px auto;
+      background-color: #ff9837;
+      border: none;
+      color: white;
+      padding: 10px 50px;
+      text-align: center;
+      font-size: 18px;
+      opacity: 0.8;
+      transition: 0.3s;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 10px;
+  }
+  .submit:hover {opacity: 1}
+    .headimg{
+      margin-top: 30px; 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: -1;
+    }
+
+
+
+    .FeatureLine{
+      text-align: center;
+      margin: 30px auto 5px auto;
+    }
+    .line2{
+      font-family: 'Arimo', sans-serif;
+      font-size: 25px;
+      padding-bottom: 15px;
+      text-decoration: underline;
+      text-decoration-color: rgb(238, 132, 87);
+      text-underline-offset: 0.3em; 
+    }
+    .linesub2{
+      margin-top: 6px;
+      font-family: 'Nunito Sans',sans-serif;
+      font-size: 14px;
+    }
+    .Feature{
+      display:flex;
+      justify-content: center;
+      gap: 3%;
+    }
+    .feature1{
+     font-family: 'Arimo', sans-serif;
+     background-color: rgb(255, 255, 255);
+     height: 80px;
+     width: 35%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 6px;
+     padding: 20px 30px 0px 20px;   
+    }  
+    .feature2{
+      font-family: 'Arimo', sans-serif;
+      background-color: rgb(255, 255, 255);
+      height: 80px;
+      width: 35%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 6px;
+      padding: 20px 30px 0px 20px;
+     }
+
+
+
+
+     .CommentLine{
+      font-family: 'Arimo', sans-serif;
+      font-size: 30px;
+      text-decoration: none;
+      text-align: center;
+      margin: 4% 0 5px 0;
+     }
+     .StudentComments{
+      display:flex;
+      justify-content: center;
+     }
+     .Comment1,.Comment2,.Comment3,.Comment4 {
+     height: 500px;
+     width: 20%;
+     position: relative;
+     margin: 10px;
+     border-radius: 5px;
+     border-style: solid;
+     border-width: 1px;
+     overflow: hidden;
+     }
+     .des1{
+      position: absolute;
+      height: 15px;
+      width: 100%;
+      background-color: #ee8457;
+      bottom: 0px;
+      border-radius: 0px 0px 5px 5px;
+     }  
+     .StudentProfile{
+      transition: transform .2s;
+     }
+    .Comment1:hover,.Comment2:hover,.Comment3:hover,.Comment4:hover {
+      .StudentProfile{
+       transform: scale(1.2);
+      }
+     }
+     .content{
+      font-family: 'Nunito Sans',sans-serif;
+      position: absolute;
+      bottom: 70px;
+      padding: 5px;
+     }
+     .contentHead{
+      margin-top: 28px;
+      padding: 5px;
+      font-size: 22px;
+     }
+     
+     .footer{
+      font-family: 'Nunito Sans',sans-serif;
+      margin-top: 4%;
+      color: #ffffff;
+      width: 100%;
+      height: 400px;
+      bottom: 0%;
+      background-color: #000000;
+      display: flex;
+      padding: 30px;}
+.term{
+      width: 40%; 
+      font-size: 18px;}
+     

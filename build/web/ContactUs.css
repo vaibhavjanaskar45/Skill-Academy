@@ -1,0 +1,122 @@
+body{
+    background-color: #ffa322;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 10px; 
+    margin: 0px;
+    position: fixed; 
+    width: 100%;
+    top: 0; 
+    left: 0;
+    z-index: 99;
+    }
+    #navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding: 2px 12px;
+    margin:5px ;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+    }
+    #navbar #logo {
+    font-family: 'Kalam', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    #navbar a.active {
+    background-color: #ee8457;
+    color: white;
+    }
+    #navbar-right {
+    margin-top: 3px;
+    float: right;
+    padding-right: 60px;
+    }
+    
+
+    .centerContainer{
+        height: 600px;
+        width: 70%;
+        margin: 8.5% auto;
+        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        background-color: #f1f1f1;
+        display: flex;
+    }
+    .right{
+        height: 600px;
+        width: 50%;
+        background-color: #000000;
+        border-radius: 10px 0 0 10px;
+    }
+    .left{
+        height: 600px;
+        width: 50%;
+        background-color: #f1f1f1;
+        border-radius: 0 10px 10px 0;
+    }
+    h3{
+        color: #f1f1f1;
+        font-size: 32px;
+        font-weight: 100;
+        margin-left: 5%;
+    }
+    h1{
+        color: #f1f1f1;
+        font-size: 21px;
+        font-weight: 100;
+        margin-left: 5%;
+    }
+    .flex1{
+        color: #f1f1f1;
+        font-size: 18px;
+        font-weight: 100;
+        margin-left: 15%;
+    }
+
+.socialmediaflex{
+display: flex;
+bottom: 0%;
+}
+
+h2{
+    color: #000000;
+    font-size: 28px;
+    font-weight: 100;
+    margin-left: 5%;
+}
+.input
+{ border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 8%;
+}
+.btn{
+    border-radius: 5px;
+    width: 72%;
+    height: 33px;
+    border: 1px solid black; 
+    background-color: #f9af47;
+    font-size: 15px;
+    margin-left: 8%;
+}
+.label{
+    font-size: 20px;
+    margin-left: 8%;
+}
